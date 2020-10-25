@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Mija";
+  src: url(../fonts/Mija-Regular.ttf) format('ttf');
+  src: url(../fonts/Mija-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: "Mija-bold";
+  src: url(../fonts/Mija-W03-Bold.ttf) format('ttf');
+  src: url(../fonts/Mija-W03-Bold.woff) format('woff');
+  font-weight: bold;
+}
 .w-checkbox {
   display: block;
   margin-bottom: 5px;
@@ -167,22 +178,22 @@
 }
 
 .field-input::-webkit-input-placeholder {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Mija", sans-serif;
   color: rgba(0, 0, 55, 0.1);
 }
 
 .field-input:-ms-input-placeholder {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Mija", sans-serif;
   color: rgba(0, 0, 55, 0.1);
 }
 
 .field-input::-ms-input-placeholder {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Mija", sans-serif;
   color: rgba(0, 0, 55, 0.1);
 }
 
 .field-input::placeholder {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Mija", sans-serif;
   color: rgba(0, 0, 55, 0.1);
 }
 
@@ -371,7 +382,7 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  font-family: Mija, sans-serif;
+  font-family: "Mija", sans-serif;
   color: #cfe1d7;
   text-align: left;
 }
@@ -447,7 +458,7 @@
   margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Mija, sans-serif;
+  font-family: "Mija", sans-serif;
   color: #cfe1d7;
   font-size: 18px;
   line-height: 23px;
@@ -571,7 +582,7 @@
 
 .form-section-title {
   margin-bottom: 12px;
-  font-family: Mija, sans-serif;
+  font-family: "Mija", sans-serif;
   color: #cfe1d7;
   font-size: 48px;
   line-height: 1.2em;
@@ -848,7 +859,7 @@
     -webkit-align-content: stretch;
     -ms-flex-line-pack: stretch;
     align-content: stretch;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #cfe1d7;
   }
   .mobile-nav-bottom {
@@ -1087,7 +1098,7 @@
   .paragraph {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #cae2d6;
     font-size: 14px;
     line-height: 1.5em;
@@ -1121,7 +1132,7 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #cae2d6;
     font-size: 2.8em;
     line-height: 1em;
@@ -1136,7 +1147,7 @@
   }
   .checkbox-label {
     padding-left: 12px;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #cae2d6;
     font-size: 20px;
   }
@@ -1228,7 +1239,7 @@
     padding: 10px 24px;
     border-radius: 20px;
     background-color: #63817a;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #1d413d;
     font-size: 18px;
     font-style: normal;
@@ -1244,7 +1255,7 @@
     border: 1px none transparent;
     border-radius: 20px;
     background-color: #16312e;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #3e6f6a;
     font-size: 18px;
     background-clip: border-box;
@@ -1529,6 +1540,7 @@
     clear: both;
   }
   .heading {
+    font-family: 'Mija-bold', sans-serif;
     position: static;
     left: 0%;
     top: 0%;
@@ -1538,7 +1550,7 @@
     margin-bottom: 4px;
     padding-right: 0px;
     padding-left: 0px;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #cfe1d7;
     font-size: 20px;
     line-height: 1.2em;
@@ -1559,7 +1571,7 @@
     text-align: center;
   }
   .paragraph-2 {
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     font-weight: 400;
   }
   .div-block-3 {
@@ -1573,7 +1585,7 @@
     clear: both;
     background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(29, 65, 61, 0.9)));
     background-image: linear-gradient(180deg, transparent, rgba(29, 65, 61, 0.9));
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #e0e0e0;
     font-size: 18px;
   }
@@ -1647,7 +1659,7 @@
   }
   .text-block-2 {
     padding-bottom: 16px;
-    font-family: Mija, sans-serif;
+    font-family: "Mija-bold", sans-serif;
     color: #cae2d6;
     font-size: 30px;
     line-height: 1.1em;
@@ -1655,7 +1667,7 @@
   }
   .text-block-3 {
     margin-bottom: 16px;
-    font-family: Mija, sans-serif;
+    font-family: "Mija-bold", sans-serif;
     color: #cae2d6;
     font-size: 37px;
     line-height: 1.1em;
@@ -1671,14 +1683,14 @@
     margin-bottom: 4px;
     padding-right: 0px;
     padding-left: 0px;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #1d413d;
     font-size: 20px;
     line-height: 1.2em;
     text-align: center;
   }
   .mp-paragraph {
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #1d413d;
     font-weight: 400;
   }
@@ -1690,7 +1702,7 @@
     padding: 16px;
     border-radius: 20px;
     background-color: #ede3d9;
-    font-family: Mija, sans-serif;
+    font-family: "Mija", sans-serif;
     color: #1d413d;
   }
   .heading-3 {
@@ -1962,7 +1974,7 @@
 
 .tinder--cards {
   flex-grow: 1;
-  text-align: center;
+  text-align: left;
   align-items: flex-end;
   z-index: 1;
 }
