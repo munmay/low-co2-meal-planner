@@ -1495,7 +1495,7 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
